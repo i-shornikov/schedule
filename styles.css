@@ -1,0 +1,65 @@
+*{padding:0;margin:0;font-family: Helvetica, "Lucida Grande", "Lucida Sans Unicode", sans-serif;}
+body{background:white;background:url(body.png) repeat-x;}
+a {text-decoration: none; color:#444;}
+a:link {text-decoration: none; color:white;}
+
+#content{margin:50px auto;width:1000px;height:800px;}
+#menu{width:100%;position:absolute;top:-30px;overflow: hidden;}
+#cmenu{width:100%;height:30px;background:#1E90FF;
+border-bottom:2px solid #0E80EF;
+-webkit-box-shadow:0px 1px 1px rgba(50, 50, 50, 1);
+-moz-box-shadow:0px 1px 1px rgba(50, 50, 50, 1);
+box-shadow:0px 1px 1px rgba(50, 50, 50, 1);}
+#push{position:relative;margin:0 auto;padding-top:4px;color:#f9f9f9;margin-top:1px;text-align:center;font-size:12pt;cursor:pointer;}
+#push:hover{color:#aaa}
+#ulmenu ul{list-style:none;}
+#ulmenu li{display:inline;padding:5px 0 5px 50px;color:white;font-weight:bold;display:table-cell; vertical-align:middle;}
+#copyright{position:absolute;top:6px;right:10px;color:white;display:table-cell;vertical-align:middle;font-size:10pt}
+#head{font-size:20pt;text-align:center;font-weight:bold;}
+#month{font-size:20pt;text-align:center;padding:10px;}
+#switch{margin:0 auto;width:200px;text-align:center;padding:4px;background:#f9f9f9;border:1px solid #aaa;-webkit-border-radius:30px;
+-moz-border-radius: 30px;
+border-radius: 30px;}
+
+table {
+	border-collapse: separate;
+	border: 1px solid #9DABCE;
+	border-width: 0px 0px 1px 1px;
+	margin: 10px auto;
+	font-size: 20px;
+	border-spacing: 0px !important;
+}
+td, th {
+	width: 81px;
+	height: 81px;
+	text-align: center;
+	vertical-align: middle;
+	background: url(cells.png);
+	color: #444;
+	position: relative;
+}
+th {
+	height: 30px;
+	font-weight: bold;
+	font-size: 14px;
+}
+td:hover, th:hover {
+	background-position: 0px -81px;
+	color: #222;}
+.ui-datepicker-today{background-position: 81px 0px;color:green;}
+.ui-datepicker-week-end{color:red;}
+.ui-datepicker-week-end a:link{color:red;}
+.ui-datepicker-header{margin: 0px auto;text-align:center;width:250px;}
+#calendar{padding:20px;}
+#calendar ul{display:inline;list-style:none;width:35px;height:81px;}
+#calendar li{
+display:inline;
+padding:30px;
+height:81px;
+width:81px;
+line-height:81px;
+color:#444;
+font-weight:bold;
+font-size:14px;
+background: url(cells.png);
+text-align:center;}
